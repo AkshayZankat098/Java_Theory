@@ -1,4 +1,4 @@
-public class JavaPattern {
+public class JavaPatternProblems {
     
     public static void main(String[] args) {
         Pattern13();
