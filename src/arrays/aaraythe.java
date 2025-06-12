@@ -19,6 +19,7 @@ public class aaraythe {
 //Object[]: This is an array of Object, which can store elements of any type, such as String, Integer, Boolean, etc., because all classes in Java inherit from the Object class. 
 //ex :  Object e [] = {"test", 10};
 //5) Two types of arrays : One-Dimensional Arrays (1D Arrays) & Two-Dimensional Arrays (2D Arrays)
+
 //-----------One-Dimensional Arrays (1D Arrays)-----------
         int a[] = new int[5];
         a[0] = 10;

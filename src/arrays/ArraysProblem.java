@@ -9,7 +9,7 @@ public class ArraysProblem {
         ShortingInt1();
     }
 
-    //Search an element in the given arrays >> Defination of LinearSearch : "We can search with one by one element via loop either for or for each loop"   
+//Search an element in the given arrays >> Defination of LinearSearch : "We can search with one by one element via loop either for or for each loop"   
     public static void LinearSearch1() {
         int a[] = {10, 20, 30, 40, 50};
         Scanner sc = new Scanner(System.in);
@@ -49,6 +49,7 @@ public class ArraysProblem {
         }
     }
 
+//ShortingInt ::    
     public static void ShortingInt1() {
 
         int a[] = {10, 30, 15, 60, 80, 75, 35};
@@ -198,7 +199,7 @@ public class ArraysProblem {
 
     }
 
-//Given a number n. Add all the numbers from 1 to n.        
+//Arrays problem7 : Given a number n. Add all the numbers from 1 to n.        
     public static void Program1() {
 
         Scanner sc = new Scanner(System.in);
@@ -212,7 +213,7 @@ public class ArraysProblem {
         System.out.println(sum);
     }
 
-//You are given two numbers as input. You have to return the largest of the two numbers as output.    
+//Arrays problem8 : You are given two numbers as input. You have to return the largest of the two numbers as output.    
     public static void Program2() {
 
         Scanner sc = new Scanner(System.in);
@@ -229,7 +230,7 @@ public class ArraysProblem {
         }
     }
 
-//Classify even and odd number.    
+//Arrays problem9 : Classify even and odd number.    
     public static void Program3() {
 
         Scanner sc = new Scanner(System.in);
@@ -242,7 +243,7 @@ public class ArraysProblem {
         }
     }
 
-//Find the reminder of the number.    
+//Arrays problem10 : Find the reminder of the number.    
     public static void Program4() {
 
         Scanner sc = new Scanner(System.in);
