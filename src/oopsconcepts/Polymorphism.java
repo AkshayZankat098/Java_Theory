@@ -14,6 +14,7 @@ public class Polymorphism {
 //7. Types of Polymorphism ?
 //8. What is data abstraction ?
 //9. What is an abstract class? 
+
 // 1. Compile-Time Polymorphism or Static Polymorphism (Method Overloading)
 // When multiple methods in the same class have the same name but different parameters.
     static int add(int a, int b) {
@@ -51,3 +52,4 @@ class Dog extends Polymorphism {
         System.out.println("Dog barks");
     }
 }
+
