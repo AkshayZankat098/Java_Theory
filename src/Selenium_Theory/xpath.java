@@ -1,4 +1,4 @@
-package seleniumwebdriver.xpaththeory;
+package Selenium_Theory;
 
 public class xpath {
 
