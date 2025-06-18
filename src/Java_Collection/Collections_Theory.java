@@ -1,4 +1,4 @@
-package collection;
+package Java_Collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-public class CollectionsTheory {
+public class Collections_Theory {
 
     public static void main(String[] args) {
         hashSet();

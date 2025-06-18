@@ -1,4 +1,4 @@
-package oopsconcepts;
+package Oops_Concepts;
 public class Encapsulation02 {
 
     public static void main(String[] args) {

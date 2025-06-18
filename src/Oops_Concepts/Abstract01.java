@@ -1,6 +1,6 @@
-package oopsconcepts;
+package Oops_Concepts;
 
-abstract public class abstract01 {
+abstract public class Abstract01 {
 
     abstract void abstractMethod ();  //No body : Most of the time body of this method is added by child class.
 

@@ -1,6 +1,6 @@
-package arrays;
+package Arrays;
 
-public class Loops {
+public class Java_Loops {
 
     public static void main(String[] args) {
     }

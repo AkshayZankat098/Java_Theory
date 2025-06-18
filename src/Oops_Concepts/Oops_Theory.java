@@ -1,6 +1,6 @@
-package oopsconcepts;
+package Oops_Concepts;
 
-public class OopsConceptsTheory {
+public class Oops_Theory {
 
 // Oops :: 
 // 1. Classes 
@@ -30,5 +30,6 @@ public class OopsConceptsTheory {
 // In Java, a class is a blueprint or template used to create objects (instances). 
 // It defines the properties (fields) & behaviors (methods) that the objects created from the class will have. 
 // A class in Java is essentially a way to structure and organize data and functionality together.
-//Examples : Students & Students names  All classes veriable is assign to object 
+//Examples : Students & Students names  All classes veriable is assign to object
+
 }

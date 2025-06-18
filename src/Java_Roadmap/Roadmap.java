@@ -1,6 +1,6 @@
-package javalist;
+package Java_Roadmap;
 
-public class roadmap {
+public class Roadmap {
 
 // JDK : The first step of installation helps us to compile the code into machine language.
 // JVM

@@ -1,6 +1,6 @@
-package oopsconcepts;
+package Oops_Concepts;
 
-public class abstract02 extends abstract01 {
+public class Abstract02 extends Abstract01 {
 
     @Override
     void abstractMethod() {

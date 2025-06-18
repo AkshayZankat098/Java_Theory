@@ -1,9 +1,9 @@
-package arrays;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArraysProblem {
+public class Array_problem {
 
     public static void main(String[] args) {
         ShortingInt1();

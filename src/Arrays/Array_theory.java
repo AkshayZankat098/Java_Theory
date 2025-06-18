@@ -1,9 +1,9 @@
-package arrays;
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class aaraythe {
+public class Array_theory {
 
     public static void main(String[] args) {
         TwoDimensional();

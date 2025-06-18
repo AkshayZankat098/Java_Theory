@@ -1,6 +1,6 @@
-package arrays;
+package Arrays;
 
-public class JavaPatternProblems {
+public class JavaPattern_Problems {
 
     public static void main(String[] args) {
         Pattern02();

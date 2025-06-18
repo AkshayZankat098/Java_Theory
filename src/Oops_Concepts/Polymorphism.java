@@ -1,4 +1,4 @@
-package oopsconcepts;
+package Oops_Concepts;
 
 public class Polymorphism {
 
