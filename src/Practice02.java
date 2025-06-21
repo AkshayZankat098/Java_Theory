@@ -1,15 +1,3 @@
-// public class Practice02 extends Practice01 {
-
-//     public Practice02(String name, String email) {
-//         super(name, email);
-//     }
-//     public void showContent () {
-//         super.getter();
-//     }
-//     public static void main(String[] args) {
-//         Practice02 practice02 = new Practice02("Akshay", "Akshay@gmail.com")
-//     }
-// }
 public class Practice02 extends Practice01 {
 
     public Practice02(String name, String email) {

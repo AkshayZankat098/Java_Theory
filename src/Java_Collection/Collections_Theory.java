@@ -12,15 +12,17 @@ public class Collections_Theory {
         hashSet();
     }
 
-    public static void Akshay() {
-
-    }
-
     public static void Array() {
 
         //Array : Only store or allowed homogeneous data (same data type)
         //Heterogeneous data : various data types
-        String a[] = new String[2];  //Why we need to create object 
+
+        String a[] = new String[2];
+        //Why we need to create object ? :: Creating an object because arrays in Java are objects
+        // Why is new required here? :: The keyword new is used to allocate memory on the heap for the array object.
+        // Java does not automatically allocate memory just by declaring the reference variable (String a[]);
+        // You must explicitly create the array with a size using new.
+
         a[0] = "Akshay";
         a[1] = "Sanjay";
         System.out.println(Arrays.toString(a));
@@ -31,9 +33,13 @@ public class Collections_Theory {
         o[1] = 40;
         System.out.println(Arrays.toString(o));
 
-        int b[] = {10, 20};     //Explain this line of code
-        System.out.println(Arrays.toString(b));
+        int b[] = {10, 20};
 
+        //Explain this line of code ?
+//       int b[]; Declares an array named b that can hold integers.
+//       {10, 20} Initializes the array with the values 10 and 20.
+
+        System.out.println(Arrays.toString(b));
     }
 
     public static void ArrayList() {

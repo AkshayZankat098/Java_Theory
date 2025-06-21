@@ -9,7 +9,8 @@ public class Array_problem {
         ShortingInt1();
     }
 
-//Search an element in the given arrays >> Defination of LinearSearch : "We can search with one by one element via loop either for or for each loop"   
+//Search an element in the given arrays >> Defination of LinearSearch : "We can search with one by one element via loop either for or for each loop"
+
     public static void LinearSearch1() {
         int a[] = {10, 20, 30, 40, 50};
         Scanner sc = new Scanner(System.in);
@@ -151,7 +152,7 @@ public class Array_problem {
 //Arrays problem5 : Find the center of the given matrix
     public static void findCenter() {
 
-        //int a[][] = {{10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 36, 60, 80, 30, 5}, {10, 20, 30, 40, 21, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}}; 
+//        int a[][] = {{10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 36, 60, 80, 30, 5}, {10, 20, 30, 40, 21, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}, {10, 20, 30, 40, 50, 60, 80, 30, 5}};
         int a[][] = {{10, 20, 30}, {40, 50, 60}, {40, 50, 60}};
 
         // Check if the matrix is non-empty
