@@ -1,4 +1,5 @@
-package Oops_Concepts;
+package Oops_Concepts.Encapsulation;
+
 public class Encapsulation02 {
 
     public static void main(String[] args) {

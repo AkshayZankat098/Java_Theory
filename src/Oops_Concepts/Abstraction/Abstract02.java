@@ -1,4 +1,4 @@
-package Oops_Concepts;
+package Oops_Concepts.Abstraction;
 
 public class Abstract02 extends Abstract01 {
 

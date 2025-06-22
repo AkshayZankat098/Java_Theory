@@ -1,4 +1,4 @@
-package Oops_Concepts;
+package Oops_Concepts.Polymorphism;
 
 public class Polymorphism {
 

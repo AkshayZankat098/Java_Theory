@@ -1,4 +1,4 @@
-package Oops_Concepts;
+package Oops_Concepts.Abstraction;
 
 public class interface02_Implement implements Interface01 {
 

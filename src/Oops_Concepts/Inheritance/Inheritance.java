@@ -1,4 +1,4 @@
-package Oops_Concepts;
+package Oops_Concepts.Inheritance;
 
 public class Inheritance {   //Object is the parent class of the classes present in java 
 

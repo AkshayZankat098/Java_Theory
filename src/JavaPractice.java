@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class JavaProblem {
+public class JavaPractice {
 
 
     public static void main(String[] args) {
