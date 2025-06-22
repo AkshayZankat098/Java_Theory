@@ -61,7 +61,12 @@ public class Roadmap_Theory {
 // this keyword: When a local variable (e.g., method parameter) has the same name as an instance (Class) variable,
                 // Java uses the "this" keyword to distinguish the instance variable from the local variable.
 
-// 3) Explain PSVM ::
+// 3) What is the use of Super keywords ::
+// It is mainly used when the child class has a variable with the same name as the parent class variable, to access the parent variable.
+// The 'super' keyword is used to refer to the immediate parent class's members (variables, methods, constructor).
+// It is commonly used to call the parent class constructor or overridden method.
+
+// 4) Explain PSVM ::
 // Valid Main Method Signature:
 //    public static void main(String[] args) : default signature.
 //    public static void main(String[] arguments) : changing the identifier args to different name.
@@ -75,7 +80,5 @@ public class Roadmap_Theory {
 //    public static String main(String[] args) : returning String instead of void
 //    private static void main(String[] args) : changing access modifier
 //    public static void main(String args) : passing String as an argument instead of String[] array
-
-
 
 }

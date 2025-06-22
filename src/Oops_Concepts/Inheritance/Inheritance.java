@@ -2,11 +2,13 @@ package Oops_Concepts.Inheritance;
 
 public class Inheritance {   //Object is the parent class of the classes present in java 
 
-//Inheritance : Aquiring all the properties (Variables) & behaviour (Methods) from one class to another class is called inheritance.
-//With the help of extend keywords we can achive this 
-//Parents/Base/Super and Chiled/Super/Sub class
-//How to change Parents class Variables value inside the chiled class?
-//TYPES OF INHERITANCE :
+//Inheritance : Acquiring all the properties (Variables) & behaviour (Methods) from one class to another class is called inheritance.
+// Also, we can achieve polymorphism or method overriding via inheritance.
+// With the help of extend keywords we can achieve this
+// Parents/Base/Super and Child/Super/Sub class
+// How to change Parents class Variables value inside the child class?
+
+// TYPES OF INHERITANCE :
 //1) Single inheritance Example : 
     static class A {
 
@@ -41,7 +43,7 @@ public class Inheritance {   //Object is the parent class of the classes present
         int Chiled2 = 60;
     }
 
-//4) Multiple inheritance Example : Multiple parents and single Chiled (Not support using class)
+// Multiple inheritance Example : Multiple parents and single Chiled (Not support using class)
     public static void main(String[] args) {
 
 //1) Single inheritance : 
@@ -64,6 +66,4 @@ public class Inheritance {   //Object is the parent class of the classes present
         System.out.println(Chiled2obj.Parents);
         System.out.println(Chiled2obj.Chiled2);
     }
-
-//Method Overiding in JAVA : 
 }

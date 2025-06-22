@@ -9,14 +9,12 @@ public class Polymorphism {
 //2. Enables method overloading and overriding.
 //3. Supports runtime decisions (dynamic binding).
 //4. Helps in implementing interfaces and abstraction.
-//5. What is interfaces ?
-//6. What is abstraction ?
-//7. Types of Polymorphism ?
-//8. What is data abstraction ?
-//9. What is an abstract class? 
+
 
 // 1. Compile-Time Polymorphism or Static Polymorphism (Method Overloading)
 // When multiple methods in the same class have the same name but different parameters.
+// Handle by compiler
+
     static int add(int a, int b) {
         return a + b;
     }
@@ -31,6 +29,8 @@ public class Polymorphism {
 
 // 2. Runtime Polymorphism or Dynamic Polymorphism (Method Overriding)
 // When a subclass provides a specific implementation of a method that is already defined in its superclass.
+// Handle by java JVM
+
     void sound() {
         System.out.println("Animal makes sound");
     }
@@ -52,4 +52,20 @@ class Dog extends Polymorphism {
         System.out.println("Dog barks");
     }
 }
+
+// ✅ Method Overloading ::
+// Same name
+// Same class
+// Different arguments:
+//        No. of arguments
+//        Sequence of arguments
+//        Type of arguments
+//
+// ✅ Method Overriding ::
+// Same name
+// Different class
+// Same arguments:
+//    No. of arguments
+//    Sequence of arguments
+//    Type of arguments
 
