@@ -1,6 +1,6 @@
-package Oops_Concepts.Inheritance;
+package Oops_Concepts.inheritance;
 
-public class Inheritance {   //Object is the parent class of the classes present in java 
+public class Inheritance {   //Object is the parent class of the classes present in java
 
 //Inheritance : Acquiring all the properties (Variables) & behaviour (Methods) from one class to another class is called inheritance.
 // Also, we can achieve polymorphism or method overriding via inheritance.

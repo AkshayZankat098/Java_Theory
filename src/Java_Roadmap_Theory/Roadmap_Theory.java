@@ -81,4 +81,14 @@ public class Roadmap_Theory {
 //    private static void main(String[] args) : changing access modifier
 //    public static void main(String args) : passing String as an argument instead of String[] array
 
+// 5) Access modifiers in java:
+// public : What it means: Anyone can access it.
+// protected : What it means: Only accessible within the same package and by subclasses.
+// default (no modifier): What it means: Only accessible within the same package.
+// private : What it means: Only accessible within the same class.
+
+// 6) What is parameters and arguments :
+// Parameters : String name in greet(String name)
+// Arguments : "Akshay" in greet("Akshay")
+
 }

@@ -1,6 +1,6 @@
-package Oops_Concepts.Polymorphism;
+package Oops_Concepts.polymorphism;
 
-public class Polymorphism {
+public class PolymorphismExample  {
 
 // Polymorphism :: Means "many forms."
 // In Java, it allows one interface, method, or object to behave in different ways depending on context.    
@@ -37,7 +37,7 @@ public class Polymorphism {
 
     public static void main(String[] args) {
 
-        Polymorphism a = new Dog();     // Upcasting
+        PolymorphismExample  a = new Dog();     // Upcasting
         a.sound();                      // Dog's sound() called at runtime
         int sum = add(10, 20, 30);
         System.out.println(sum);
@@ -46,7 +46,7 @@ public class Polymorphism {
 }
 
 //Subclass or child class 
-class Dog extends Polymorphism {
+class Dog extends PolymorphismExample  {
 
     void sound() {
         System.out.println("Dog barks");

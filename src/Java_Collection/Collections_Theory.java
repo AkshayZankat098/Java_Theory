@@ -12,6 +12,11 @@ public class Collections_Theory {
         hashSet();
     }
 
+// List, Set, and Map are interfaces in the Java Collection Framework.
+// ArrayList is a class that implements the List interface,
+// HashSet is a class that implements the Set interface,
+// HashMap is a class that implements the Map interface.
+
     public static void Array() {
 
         //Array : Only store or allowed homogeneous data (same data type)

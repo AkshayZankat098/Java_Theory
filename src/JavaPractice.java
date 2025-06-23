@@ -1,16 +1,31 @@
+import java.util.Scanner;
+
 public class JavaPractice {
 
-
+    Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
-        int[][] Ak2 = {{30, 20, 10}, {20, 30, 50}};
+        JavaPractice java = new JavaPractice();
+        java.ValidPalindrome();
+    }
 
-        System.out.println("Total rows: " + Ak2[2].length);
+    public void ValidPalindrome (){
 
-        for (int i = 0; i < Ak2.length; i++) {
-            for (int j = 0; j < Ak2[i].length; j++) {
-                System.out.print(Ak2[i][j] + " ");
-            }
+        String StringName = sc.nextLine();
+        String StringLower = StringName.toLowerCase();
+
+        // Reverse the string
+        String StringName_Reversed = new StringBuilder(StringLower).reverse().toString();
+
+        // Compare original and reversed
+        if (StringLower.equals(StringName_Reversed)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
         }
+    }
+
+    public void StringCompression (){
+
     }
 }
