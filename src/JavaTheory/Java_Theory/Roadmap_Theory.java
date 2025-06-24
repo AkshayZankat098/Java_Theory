@@ -1,4 +1,4 @@
-package JavaTheory.Java_Roadmap_Theory;
+package JavaTheory.Java_Theory;
 
 public class Roadmap_Theory {
 
