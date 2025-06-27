@@ -4,38 +4,33 @@ public class HandleWebActions {
 
 // Top list of web actions:
 
-//    1) Buttons and Edit Fields
-//    2) Hyperlink and Images
-
+//    1) Buttons and Edit Fields: Normal Way & with the help of isDisplayed(), isEnabled(); we can handle Buttons.
+//    2) Hyperlink and Images: By normal way
 //    3) Checkbox and Radio button: Normal way of selenium methods
-//    4) Dropdown (static/dynamic):
+//    4) Dropdown (static/dynamic): Select select = new Select(dropdown);
 //      > If <select> tag is present: It indicates a Single-select or Multi-select dropdown, In such cases, use the Select class in Selenium to interact with the dropdown options.
 //      > Common methods of Select class include:
-//     - selectByValue(String value)
-//     - selectByVisibleText(String text)
-//     - selectByIndex(int index)
-//     - getAllSelectedOptions()
-//     - getFirstSelectedOption()
-//     - deselectAll() [Only for multi-select]
-//     - deselectByValue(), deselectByVisibleText(), deselectByIndex()
+//         - selectByValue(String value)
+//         - selectByVisibleText(String text)
+//         - selectByIndex(int index)
+//         - getAllSelectedOptions()
+//         - getFirstSelectedOption()
+//         - deselectAll() [Only for multi-select]
+//         - deselectByValue(), deselectByVisibleText(), deselectByIndex()
 
 //      > Auto-suggestion dropdown:
 //      These are dynamic dropdowns that do not use the <select> tag, Handle them using standard WebDriver methods like:
-//     - sendKeys() to type input
-//     - wait for suggestions using WebDriverWait and ExpectedConditions
-//     - locate suggestion options using findElements()
-//     - iterate over suggestions and click the desired option
+//         - sendKeys() to type input
+//         - wait for suggestions using WebDriverWait and ExpectedConditions
+//         - locate suggestion options using findElements()
+//         - iterate over suggestions and click the desired option
 
-
-//    5) Calendar / Date Pickers
-
-
-
-//    6) Web Tables (dynamic/static)
-//    7) Handle frames / iFrames:
+//    5) Calendar/Date Pickers: Need to handle with loop or with Month object
+//    6) Web Tables (dynamic/static): Play with the rows and columns (For loop and nested for loop) We can handle the web tables.
+//    7) Handle frames/iFrames:
 //         > Need to work with (driver.switchTo().frame(index, WebElement, name, id); driver.switchTo().defaultContent(); driver.switchTo().parentFrame();) this method to handle frame in selenium Also
 
-//    8) Handle alert pop-ups (Normal alert, Confirm alert with 'OK' and 'CANCEL' button, Prompt alert that ask to fill data from the input field):
+//    8) Handle alert pop-ups (Normal alert with 'OK', Confirm alert with 'OK' and 'CANCEL' button, Prompt alert that ask to fill data from the input field):
 //        > Inside the alert is not a web-element
 //        > With the help of Alert interface we can handle the alert
 //        > Alert MyAlert = driver.switchTo().alert(); Then with the help of MyAlert we can handle alerts. (accept(), dismiss(), getText(), sendKeys(String text))
@@ -89,11 +84,9 @@ public class HandleWebActions {
 //            element.sendKeys(Keys.chord(Keys.CONTROL, "v")); // Paste
 //    - Web can also handle via action class :  Action.sendKeys(Keys.ENTER).perform();
 
-//    11) Javascript executor (scroll, click, highlight)
+//    11) JavaScript executor (scroll, click, highlight)
 //    12) Take screenshot handle
-//    13) Applied waits in selenium
 //    14) File Upload & Download Handling
 //    15) Shadow DOM Element Handling
-
 
 }

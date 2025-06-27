@@ -13,5 +13,4 @@ public class Selenium_Architecture {
 // 3) The respective browser driver (chromedriver) communicates with the actual browser to execute the commands.
 // 4) After action is run successfully browser responds to the browser driver and then to via JSON or http protocol our IDE
 
-
-}
+    }
