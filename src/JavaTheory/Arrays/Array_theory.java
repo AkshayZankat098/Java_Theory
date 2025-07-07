@@ -11,14 +11,18 @@ public class Array_theory {
 
     public static void OneDimensional() {
 
-//-----------List of all properties of JavaTheory.Arrays-----------
-//1) Defination : JavaTheory.Arrays.Collection of the value with same datatype
-//2) Data store in index format 
-//3) Array is one type of data types and we can assign veriable into this 
-//4) Only we can store homogenius data inside this & if want to store diff types of data we need to define 
-//Object[]: This is an array of Object, which can store elements of any type, such as String, Integer, Boolean, etc., because all classes in Java inherit from the Object class. 
-//ex :  Object e [] = {"test", 10};
-//5) Two types of arrays : One-Dimensional JavaTheory.Arrays (1D JavaTheory.Arrays) & Two-Dimensional JavaTheory.Arrays (2D JavaTheory.Arrays)
+/*
+    -----------List of all properties of JavaTheory.Arrays-----------
+
+    1) Definition : JavaTheory.Arrays.Collection of the value with same datatype
+    2) Data store in index format
+    3) Array is one type of data types, and we can assign variable into this
+    4) Only we can store homogeneous data inside this & if you want to store diff types of data we need to define
+    Object[]: This is an array of Object, which can store elements of any type, such as String, Integer, Boolean, etc., because all classes in Java inherit from the Object class.
+    Ex:  Object e [] = {"test", 10};
+    5) Two types of arrays: One-Dimensional JavaTheory.Arrays (1D JavaTheory.Arrays) & Two-Dimensional JavaTheory.Arrays (2D JavaTheory.Arrays)
+
+*/
 
 //-----------One-Dimensional JavaTheory.Arrays (1D JavaTheory.Arrays)-----------
         int a[] = new int[5];

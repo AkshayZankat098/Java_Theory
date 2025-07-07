@@ -1,15 +1,20 @@
 package JavaTheory.Oops_Concepts.inheritance;
 
-public class Inheritance {   //Object is the parent class of the classes present in java
+public class Inheritance {
 
-//Inheritance : Acquiring all the properties (Variables) & behaviour (Methods) from one class to another class is called inheritance.
-// Also, we can achieve polymorphism or method overriding via inheritance.
-// With the help of extend keywords we can achieve this
-// Parents/Base/Super and Child/Super/Sub class
-// How to change Parents class Variables value inside the child class?
+/*
+    Object is the parent class of the classes present in java
+    Inheritance: Acquiring all the properties (Variables) & behavior (Methods) from one class to another class is called inheritance.
+     Also, we can achieve polymorphism or method overriding via inheritance.
+     With the help of extend keywords, we can achieve this
+     Parents/Base/Super and Child/Super/Subclass
+     How to change Parents class Variables value inside the child class?
 
-// TYPES OF INHERITANCE :
-//1) Single inheritance Example : 
+     TYPES OF INHERITANCE:
+    1) Single inheritance Example :
+
+ */
+
     static class A {
 
         int a = 10;

@@ -12,10 +12,12 @@ public class Collections_Theory {
         hashSet();
     }
 
-// List, Set, and Map are interfaces in the Java JavaTheory.Arrays.Collection Framework.
-// ArrayList is a class that implements the List interface,
-// HashSet is a class that implements the Set interface,
-// HashMap is a class that implements the Map interface.
+/*
+     List, Set, and Map are interfaces in the Java JavaTheory.Arrays.Collection Framework.
+     ArrayList is a class that implements the List interface,
+     HashSet is a class that implements the Set interface,
+     HashMap is a class that implements the Map interface.
+*/
 
     public static void Array() {
 
@@ -23,10 +25,13 @@ public class Collections_Theory {
         //Heterogeneous data : various data types
 
         String a[] = new String[2];
-        //Why we need to create object ? :: Creating an object because arrays in Java are objects
-        // Why is new required here? :: The keyword new is used to allocate memory on the heap for the array object.
-        // Java does not automatically allocate memory just by declaring the reference variable (String a[]);
-        // You must explicitly create the array with a size using new.
+
+        /*
+            Why we need to create object ? :: Creating an object because arrays in Java are objects
+            Why is new required here? :: The keyword new is used to allocate memory on the heap for the array object.
+            Java does not automatically allocate memory just by declaring the reference variable (String a[]);
+            You must explicitly create the array with a size using new.
+        */
 
         a[0] = "Akshay";
         a[1] = "Sanjay";
@@ -40,21 +45,26 @@ public class Collections_Theory {
 
         int b[] = {10, 20};
 
-        //Explain this line of code ?
-//       int b[]; Declares an array named b that can hold integers.
-//       {10, 20} Initializes the array with the values 10 and 20.
+        /*
+           Explain this line of code ?
+           int b[]; Declares an array named b that can hold integers.
+           {10, 20} Initializes the array with the values 10 and 20.
+        */
 
         System.out.println(Arrays.toString(b));
     }
 
     public static void ArrayList() {
 
-        // ArrayList :: 
-        //One type of class present in java 
-        //Package: java.util
-        // Allows duplicate elements
-        // Maintains insertion order of elements
-        //List is interface and ArrayList is one of the class present in List (JavaTheory.Arrays.Collection >List >Arraylist, LinkedList etc.)
+        /*
+            ArrayList:
+            One type of class present in java
+            Package: java.util
+            Allows duplicate elements
+            Maintains insertion order of element
+            List is interface and ArrayList is one of the class present in List (JavaTheory.Arrays.Collection >List >Arraylist, LinkedList etc.)
+        */
+
         ArrayList<String> arrayList = new ArrayList<>();
 
         arrayList.add("Apple");
@@ -74,12 +84,13 @@ public class Collections_Theory {
     }
 
     public static void hashSet() {
-
-        // HashSet:
-        // Child class of collecion
-        //Package: java.util
-        // Does not allow duplicate elements
-        // Does not maintain insertion order
+/*
+        HashSet:
+        Child class of collecion
+        Package: java.util
+        Does not allow duplicate elements
+        Does not maintain insertion order
+*/
         HashSet<String> hashSet = new HashSet<>();
         hashSet.add("Apple");
         hashSet.add("Banana");
@@ -96,14 +107,16 @@ public class Collections_Theory {
     }
 
     public static void HashMap() {
+/*
+         HashMap ::
+         One type of class present in Java
+         Package: java.util
+         Stores data in key-value pairs
+         Keys must be unique :: Values can be duplicate
+         Does not maintain insertion order (use LinkedHashMap if order is needed)
+         Map is an interface and HashMap is one of the classes that implements Map (JavaTheory.Arrays.Collection > Map > HashMap, TreeMap, LinkedHashMap, etc.)
+*/
 
-        // HashMap ::
-        // One type of class present in Java
-        // Package: java.util
-        // Stores data in key-value pairs
-        // Keys must be unique :: Values can be duplicate
-        // Does not maintain insertion order (use LinkedHashMap if order is needed)
-        // Map is an interface and HashMap is one of the classes that implements Map (JavaTheory.Arrays.Collection > Map > HashMap, TreeMap, LinkedHashMap, etc.)
         HashMap<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Apple", 1);
         hashMap.put("Banana", 2);
@@ -175,14 +188,18 @@ public class Collections_Theory {
         }
     }
 
-//Collections : Group of object
-//Why need Collections : 
-//Clear comparison of the differences between ArrayList, HashSet, and HashMap
-// | Feature           | ArrayList             | HashSet         | HashMap                    |
-// | ----------------- | --------------------- | --------------- | -------------------------- |
-// | Type              | List                  | Set             | Map                        |
-// | Stores            | Elements              | Unique elements | Key-value pairs            |
-// | Allows Duplicates | Yes                   | No              | Keys: No, Values: Yes      |
-// | Maintains Order   | Yes (insertion order) | No              | No (unless LinkedHashMap)  |
-// | Access by Index   | Yes                   | No              | No (access by key instead) |
+    /*
+        Collections : Group of object
+        Why need Collections :
+        Clear comparison of the differences between ArrayList, HashSet, and HashMap
+         | Feature           | ArrayList             | HashSet         | HashMap                    |
+         | ----------------- | --------------------- | --------------- | -------------------------- |
+         | Type              | List                  | Set             | Map                        |
+         | Stores            | Elements              | Unique elements | Key-value pairs            |
+         | Allows Duplicates | Yes                   | No              | Keys: No, Values: Yes      |
+         | Maintains Order   | Yes (insertion order) | No              | No (unless LinkedHashMap)  |
+         | Access by Index   | Yes                   | No              | No (access by key instead) |
+
+     */
+
 }
